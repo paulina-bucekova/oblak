@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.example.oblak.oblak.activity.ImageUploader">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/label_text_iu_confirm"
+            android:id="@+id/textViewDownload"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/abc_text_size_headline_material" />
+    </LinearLayout>
+
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:layout_weight="0.8">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text_iu_cancel"
+        android:id="@+id/button_iu_cancel"
+        android:singleLine="false"
+        android:clickable="true"
+        android:onClick="cancel"
+        android:layout_weight="0.5" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text_iu_send"
+        android:id="@+id/button_iu_send"
+        android:clickable="true"
+        android:onClick="sendImage"
+        android:layout_weight="0.5" />
+</LinearLayout>
+
+</LinearLayout>

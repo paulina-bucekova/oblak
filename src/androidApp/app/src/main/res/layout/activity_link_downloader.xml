@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.oblak.oblak.activity.LinkDownloader"
+    android:background="@drawable/bg3">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.9">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_text_ld_progress"
+            android:id="@+id/button_ld_downloads_progress"
+            android:clickable="true"
+            android:onClick="showDownloadsProgress"
+            android:background="#ff2a96ff"
+            android:textColor="@android:color/background_light" />
+    </LinearLayout>
+
+</LinearLayout>
+

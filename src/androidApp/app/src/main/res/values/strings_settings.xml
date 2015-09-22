@@ -1,0 +1,12 @@
+<resources>
+    <string name="title_activity_settings_oblak">Server Settings</string>
+    <string name="title_activity_settings_remote_storage">Remote Storage Settings</string>
+
+    <string name="pref_title_server_ip">Server IP or host configuration</string>
+    <string name="pref_default_server_ip">Not Configured.</string>
+
+    <string name="pref_title_server_port">Server port configuration</string>
+    <string name="pref_default_server_port">Not Configured.</string>
+
+    <string name="pref_title_automatic_upload">Automatic photo upload</string>
+</resources>
